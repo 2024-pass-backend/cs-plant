@@ -22,6 +22,6 @@
 |    아이템     |                                                              발표자료                                                              |
 |:----------:|:------------------------------------------------------------------------------------------------------------------------------:|
 | SystemCall | [박수현](https://github.com/cs-learning-study/blog-study/blob/main/os/system_call/os_Q1_%EB%B0%95%EC%88%98%ED%98%84.md) / [임성준](https://github.com/2024-pass-backend/blog-study/blob/main/os/system_call/os_Q1_%EC%9E%84%EC%84%B1%EC%A4%80.md) |
-| Interrupt  |                                                       [박수현]() / [임성준](https://github.com/2024-pass-backend/blog-study/blob/main/os/interrupt/os_Q2_%EC%9E%84%EC%84%B1%EC%A4%80.md)                                                        |
+| Interrupt  |                                                       [박수현](https://github.com/2024-pass-backend/blog-study/blob/main/os/interrupt/os_Q2_%EB%B0%95%EC%88%98%ED%98%84.md) / [임성준](https://github.com/2024-pass-backend/blog-study/blob/main/os/interrupt/os_Q2_%EC%9E%84%EC%84%B1%EC%A4%80.md)                                                        |
 |  입력하지 않으면  |                                                            공란으로 표기                                                             |
 
