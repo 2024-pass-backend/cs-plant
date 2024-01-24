@@ -5,6 +5,9 @@
 - 프로세스마다 pcb를 가지고 있고, 운영체제는 운영체제의 data영역에 각 프로세스들의 pcb를 넣어 프로세스를 관리한다.
 - (여기서 핵심은, 한 프로세스에서 다른 프로세스로의 전환이라는 것!)
 
+- 참고) 프로세스가 생성되면, 메모리 공간이 생기고, 프로세스별로 메모리 공간에 user stack과 kernel stack이 생성된다.
+- kernel stack에 
+
 ## Mode Switch
   - user mode와 kernel mode사이의 전환으로, running state는 그대로 유지된다. (프로세스의 상태가 변화하지 않음)
     - 즉, 같은 프로세스 사이에서 mode switch일 경우, 모드만 변화한 것이지 running state는 바뀌지 않는다는 것을 의미한다.
@@ -21,7 +24,7 @@
   - 프로세스는 user stack과 kernel stack을 가지고 있다.
   - 이들을 분리하는 이유는 mode분리와 마찬가지로 system을 보호하기 위함이다.
 
-<img src="../image/kernel-stack.PNG">
+<img src="../image/suhyun/kernel-stack.PNG">
 
 - 좌측 위부터, 프로세스p가 실행한다.
 - 프로세스p에서 context switch를 유발하는 interrupt or exception or systemcall이 발생하였다.

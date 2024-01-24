@@ -27,7 +27,7 @@ code와 data영역은 정적할당영역, stack과 heap영역은 동적할당영
     - 프로그래머가 직접 할당할 수 있는 저장공간
     - 낮은 주소 → 높은 주소로 할당된다.
 
-<img src="../image/process-address-space-suhyun.png">
+<img src="../image/suhyun/process-address-space-suhyun.png">
 
 ## 3. 일반적인 주소공간 그림처럼, Stack과 Heap의 크기는 매우 크다고 할 수 있는가? 그렇지 않다면, 그 크기는 언제 결정되는가?
 
@@ -76,7 +76,7 @@ code와 data영역은 정적할당영역, stack과 heap영역은 동적할당영
 - 커널 스택
     - 해당 스레드가 커널 모드에서 실행될때 사용되는 커널 공간
 
-<img src="../image/thread-address-space-suhyun.png">
+<img src="../image/suhyun/thread-address-space-suhyun.png">
 
 - 참조블로그
   - https://palamore.tistory.com/333
@@ -116,7 +116,7 @@ public class Main {
 }
 ```
 
-<img src="../image/stack-heap-suhyun.png">
+<img src="../image/suhyun/stack-heap-suhyun.png">
 
 1. heap영역에서 Member객체와 Object타입의 string객체가 생성되었다. stack영역에는 Member객체를 참조하는 member가 생성되었다.
 2. renameMember()를 호출하는데, newName이라는 매개변수를 가지고 있고 Member객체를 참조한다.
@@ -139,7 +139,7 @@ public class Main {
 - 공유 메모리 방식은 프로세스 간의 통신을 수월하게 만들지만, 동시에 같은 메모리 위치에 접근하게 되면, 일관성 문제가 발생할 수 있다.
 - 커널은 이 부분에 대해 전혀 관여하지 않기때문에 프로세스끼리 직접 공유 메모리 접근에 대한 동기화 문제를 책임져야한다.
 
-<img src="../image/shared-memory-suhyun.png">
+<img src="../image/suhyun/shared-memory-suhyun.png">
 
 - 참조블로그
   - https://hyuuny.tistory.com/153

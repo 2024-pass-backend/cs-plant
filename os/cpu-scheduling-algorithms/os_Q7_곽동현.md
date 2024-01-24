@@ -41,7 +41,7 @@ time slice가 길다면 선입선처리 알고리즘과 다를것이 없게 되�
 한단계 우선순위가 낮은 큐에 이동합니다. 이렇게 반복적으로 큐 간에 진행되다가, 에이징 기법을 적용했기 때문에 
 오래 방치되어도 점차 우선순위가 높은 큐에 진입하게 되기 때문에 기아상태를 해결할 수 있습니다.
 
-![img.png](image/multi-level-feedback-queue-scheduling.png)
+![img.png](../image/suhyun/multi-level-feedback-queue-scheduling.png)
 
 ### 6. FIFO 스케쥴러는 정말 쓸모가 없는 친구일까요? 어떤 시나리오에 사용하면 좋을까요?
 ❓  

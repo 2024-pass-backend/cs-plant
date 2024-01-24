@@ -27,4 +27,4 @@
 이러한 중간 정보들을 문맥이라고 표현합니다. 그리고 다음 프로세스에서 백업되있던 문맥들을 보며 복구하고 
 다시 기존작업을 수행하는 이 과정을 문맥교환이라고 합니다.
 
-<img src="../image/context-switch-flow-dong.png">
+<img src="../image/donghyun/context-switch-flow-dong.png">

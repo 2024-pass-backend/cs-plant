@@ -3,7 +3,7 @@
 **CPU가 다음 기계어를 실행하기 전에 CPU제어권을 자동으로 운영체제에게 넘어가게 하는 것**을 인터럽트라고 한다.
 
 ## 2. 인터럽트는 어떻게 처리하나요?
-<img src="../image/interrupt-suhyun.png">
+<img src="../image/suhyun/interrupt-suhyun.png">
 
 1) 실행중인 프로그램을 중단
 2) 현재 프로그램상태(PCB)를 커널영역에 보관 (컨텍스트 스위칭 = 문맥교환)

@@ -1,5 +1,5 @@
 ### 1. 단기, 중기, 장기 스케줄러란 무엇인가?
-<img src="../image/scheduler.png">
+<img src="../image/suhyun/scheduler.png">
 
 - 단기 스케줄러는 어떤 프로세스에 cpu를 얼마나 줄지(어떤 프로세스를 running시킬 것인가),
 - **중기 스케줄러는 어떤 프로세스를 메모리에서 디스크로 쫓아낼 것인가,**
@@ -8,7 +8,7 @@
 - **중기스케줄러와 장기 스케줄러 모두 degree of multiprogramming을 제어**하는데, 
 - 이때, **degree of multiprogramming은 프로세스를 메모리에 얼만큼 올릴 것인가**를 의미한다.
 
-<img src="../image/process-state.png">
+<img src="../image/suhyun/process-state.png">
 
 - 과거에는, 프로세스가 생성이 되고 장기 스케줄러에 의해 admitted이 되어야 ready상태가 될 수 있다.
 - 이 장기 스케줄러로 degree of multiprogramming을 제어하였다.
@@ -17,7 +17,7 @@
   - **따라서, 장기 스케줄러는 사용하지 않음!**
 
 ### 2. 프로세스의 스케줄링 상태란?
-<img src="../image/process-state-detail.PNG">
+<img src="../image/suhyun/process-state-detail.PNG">
 
 - 프로세스가 새롭게 생성된 상태인 created에서 dispatcher에 의해 어떤 프로세스를 running시킬지 결정된다.
 - running상태 
@@ -44,7 +44,7 @@
 
 - non-preemptive 스케줄링은 어떤 프로세스가 cpu를 할당받으면 그 프로세스가 종료되거나 입출력요구에 의해 프로세스가 자발적으로 중지될때까지 계속 실행하도록 보장하는 것
 
-<img src="../image/process-state.png">
+<img src="../image/suhyun/process-state.png">
 
 1) running -> wait (by I/O)
 2) running -> ready (by time interrupt)
