@@ -33,7 +33,7 @@ https://hello-judy-world.tistory.com/191
 
 ### 컨텍스트 스위칭이 발생할 때, 기존의 프로세스 정보는 커널 스택에 어떠한 형식으로 저장되나요?
 
-<img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/a7691725-49c1-4b70-8400-efd4f32430db/a7f05545-368b-4350-88fb-dcfd95712871/Untitled.png">
+<img src="https://github.com/sungjun0629/blog-study/assets/113486696/c8b2719b-556b-4224-9d7f-08905ec627d3">
 
 커널 스택은 각 프로세스나 스레드가 커널 모드에서 실행될 때 사용되는 스택이며, 이 스택에는 중요한 상태 정보가 저장됩니다.
 
