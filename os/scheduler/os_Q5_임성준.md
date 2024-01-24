@@ -47,7 +47,6 @@ https://kosaf04pyh.tistory.com/191
 
 비선점 스케쥴러의 경우 2. 수행 → 준비 3. 대기 → 준비 상황은 수행되지 않는다. 왜냐하면 프로세스를 강제로 수행에서 준비 및 대기에서 준비 상황으로 보내는 것이 아닌 자발적으로 실행이 보장되기 때문이다. 선점형은 모든 상황을 수행한다.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/a7691725-49c1-4b70-8400-efd4f32430db/c5cf0bdd-358b-4a15-bd60-b6a9d18cda4b/Untitled.png)
 
 [#6 운영체제 스케줄링 알고리즘 | 선점형과 비선점형 (velog.io)](https://velog.io/@hyun0310woo/6.-%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C-%EC%8A%A4%EC%BC%80%EC%A4%84%EB%A7%81-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%84%A0%EC%A0%90%ED%98%95%EA%B3%BC-%EB%B9%84%EC%84%A0%EC%A0%90%ED%98%95#:~:text=%EC%8A%A4%EC%BC%80%EC%A4%84%EB%A7%81%20%EC%A0%81%EC%9A%A9%20%EC%8B%9C%EC%A0%90%EC%97%90%20%EB%94%B0%EB%9D%BC%20%EB%B9%84%EC%84%A0%EC%A0%90%ED%98%95%EA%B3%BC%20%EC%84%A0%EC%A0%90%ED%98%95%EC%9D%98%202%EA%B0%80%EC%A7%80%EB%A1%9C%20%EA%B5%AC%EB%B6%84,%EC%9E%90%EB%B0%9C%EC%A0%81%20%EC%9C%BC%EB%A1%9C%20%EC%A4%91%EC%A7%80%EB%90%A0%20%EB%95%8C%EA%B9%8C%EC%A7%80%20%EA%B3%84%EC%86%8D%20%EC%8B%A4%ED%96%89%EB%90%98%EB%8F%84%EB%A1%9D%20%EB%B3%B4%EC%9E%A5%20%ED%95%9C%EB%8B%A4.)
 
