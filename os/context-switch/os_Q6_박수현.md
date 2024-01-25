@@ -11,8 +11,9 @@
 - 나중에 프로세스가 변경될 때, 해당 포인터에 해당하는 kernel stack이 레지스터를 복원해두면, 저장했던 정보가 복구되는 원리이다.
 
 ## Mode Switch
-  - user mode와 kernel mode사이의 전환으로, running state는 그대로 유지된다. (프로세스의 상태가 변화하지 않음)
-    - 즉, 같은 프로세스 사이에서 mode switch일 경우, 모드만 변화한 것이지 running state는 바뀌지 않는다는 것을 의미한다.
+user mode와 kernel mode사이의 전환으로, running state는 그대로 유지된다. (프로세스의 상태가 변화하지 않음)
+- 즉, 같은 프로세스 사이에서 mode switch일 경우, 모드만 변화한 것이지 running state는 바뀌지 않는다는 것을 의미한다.
+- mode switch가 발생하는 경우는 systemcall, exception, interrupt 등이 있다.
 
 ### 2. 프로세스와 스레드는 컨텍스트 스위칭이 발생했을 때 어떤 차이가 있을까요?
 
