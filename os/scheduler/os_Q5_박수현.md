@@ -67,7 +67,7 @@
 
 - preemptive
   - Round Robin 스케줄링
-    - cpu할당 시간이 만료되면 ready queue의 맨 디ㅜ로 들어가 다시 순서를 기다린다.
+    - cpu할당 시간이 만료되면 ready queue의 맨 뒤로 들어가 다시 순서를 기다린다.
   - SRT(Short Remaining Time) 스케줄링
     - ready queue에 실행 중인 프로세스보다 짧은 작업이 존재한다고 판단되면, 그 작업을 먼저 실행한다.
   - mulit level queue  
