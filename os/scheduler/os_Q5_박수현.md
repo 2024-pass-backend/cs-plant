@@ -52,9 +52,7 @@
 4) terminate (by exit() systemcall)
 5) ready -> running (by dispatcher)
 
-- non-preemptive는 1번과 4번에 대해 발생하게 된다.
-- preemptive는 2번과 3번에 대해 발생하게 된다.
-- **preemptive는 효율이 극대화되어 오버헤드가 발생하는 반면, nonpreemptive는 효율이 떨어지는 반면 오버헤드가 발생하지 않는다.**
+- non-preemptive는 1번, 2번, 3번, 5번과 같이 빼앗기는 형태의 상태가 없을 것이다.
 
 - non-preemptive
   - FCFS(First Come First Service)
@@ -67,7 +65,7 @@
 
 - preemptive
   - Round Robin 스케줄링
-    - cpu할당 시간이 만료되면 ready queue의 맨 디ㅜ로 들어가 다시 순서를 기다린다.
+    - cpu할당 시간이 만료되면 ready queue의 맨 뒤로 들어가 다시 순서를 기다린다.
   - SRT(Short Remaining Time) 스케줄링
     - ready queue에 실행 중인 프로세스보다 짧은 작업이 존재한다고 판단되면, 그 작업을 먼저 실행한다.
   - mulit level queue  
