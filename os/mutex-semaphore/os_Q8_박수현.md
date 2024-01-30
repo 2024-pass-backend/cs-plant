@@ -38,3 +38,13 @@
 - multi core환경이고, critical section의 작업이 context switch보다 더 빨리 끝난다면 mutex보다 spin lock을 이용하도록 한다.
 
 ## 뮤텍스와 세마포어 모두 커널이 관리하기 때문에, Lock을 얻고 방출하는 과정에서 시스템 콜을 호출해야 합니다. 이 방법의 장단점이 있을까요? 단점을 해결할 수 있는 방법은 없을까요?
+- lock을 이미 스레드가 점유하고 있다면, 다른 스레드는 잠들어야한다. (sleep()시스템 콜)
+- lock을 반환했다면, waiting queue에 있던 스레드를 깨우게 된다. (wakeup() 시스템콜)
+- 즉, lock을 얻고 방출하는 과정에서, 시스템콜이 호출하게 된다.
+
+- 이를 해결하기 위한 방법으로 try_lock을 구현하는 것이다.
+- 일반 lock은 이미 잠겨 있다면, 해당 스레드가 block되지만, try_lock은 이미 잠겨 있다면, 바로 block이 되는 것이 아니라 false를 리턴하기에, 다른 일을 수행할 수 있다.
+
+- 참조블로그
+  - https://dad-rock.tistory.com/377
+  - https://kukuta.tistory.com/440
