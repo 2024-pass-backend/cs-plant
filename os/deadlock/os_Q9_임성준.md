@@ -78,4 +78,5 @@ Wait-Free와 Lock-Free는 각각의 상황과 요구사항에 따라 선택되�
 
 ### Non-Blocking 알고리즘
 특정 스레드에서 작업이 실패하거나 또는 대기 상태에 들어가는 경우에, 다른 어떤 스레드라도 그로인해 실패하거나 대기 상태에 들어가지 않는 알고리즘을 Non-Blocking 알고리즘이라고 한다. 또한 각 작업 단계마다 일부 스레드는 항상 작업을 진행할 수 있는 경우 Lock-Free 알고리즘이라고 한다
-  
+
+출처 : https://effectivesquid.tistory.com/entry/Lock-Free-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98Non-Blocking-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98
