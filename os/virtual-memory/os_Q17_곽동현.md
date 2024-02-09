@@ -30,7 +30,7 @@
 
 ### 페이지 크기가 커지면, 페이지 폴트가 더 많이 발생한다고 할 수 있나요?
 
-![img.png](image/donghyun/pageSize-pageFault.png)
+![img.png](../image/donghyun/pageSize-pageFault.png)
 
 위 그래프와 비슷한 양상을 보인다고 합니다.
 
