@@ -25,7 +25,7 @@
 - 참조 블로그
   - https://kariskan.tistory.com/206
 
-## 5. 페이지 크기가 커지면, page-fault가 더 많이 발생한다고 할 수 있는가?
+## 5. 페이지 크기가 커지면, page-fault가 더 많이 발생한다고 할 수 있는가?, 일반적으로 페이지 사이즈는 4KB! 
 
 <img src="../image/suhyun/pagefault-pagesize.png">
 
