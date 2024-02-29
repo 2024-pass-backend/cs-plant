@@ -41,3 +41,10 @@
 |            TLB             |                                                                                                                                                                                         [박수현](https://github.com/2024-pass-backend/cs-plant/blob/main/os/tlb/os_Q19_%EB%B0%95%EC%88%98%ED%98%84.md) / [임성준](https://github.com/2024-pass-backend/cs-plant/blob/main/os/tlb/os_Q19_%EC%9E%84%EC%84%B1%EC%A4%80.md) / [곽동현](https://github.com/2024-pass-backend/cs-plant/blob/main/os/tlb/os_Q19_%EA%B3%BD%EB%8F%99%ED%98%84.md)                                                                                                                                                                                          |
 | Page Replacement Algorithm | [박수현](https://github.com/2024-pass-backend/cs-plant/blob/main/os/page-replacement-algorithm/os_Q21_%EB%B0%95%EC%88%98%ED%98%84.md) / [임성준](https://github.com/2024-pass-backend/cs-plant/blob/main/os/page-replacement-algorithm/os_Q21_%EC%9E%84%EC%84%B1%EC%A4%80.md) / [곽동현](https://github.com/2024-pass-backend/cs-plant/blob/main/os/page-replacement-algorithm/os_Q21_%EA%B3%BD%EB%8F%99%ED%98%84.md) |
 
+## 데이터베이스
+
+|        아이템         |              발표자료              |
+|:------------------:|:------------------------------:|
+|        키 종류        | [박수현](박수현) / [전정표]() / [곽동현]() |
+|    RDB & NoSQL     |  [박수현]() / [전정표]() / [곽동현]()   |
+| Transaction & ACID |            [박수현]() / [전정표]() / [곽동현]()                    |
