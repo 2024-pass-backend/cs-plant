@@ -22,7 +22,7 @@
 - 프로세스가 새롭게 생성된 상태인 created에서 dispatcher에 의해 어떤 프로세스를 running시킬지 결정된다.
 - running상태 
   - secondary storage에 저장되어있는 실행파일이 메모리에 load되는 과정
-  - 즉, cpu를 할당받기를 기다리고 있는 상태
+  - 즉, 현재 CPU에서 실행 중인 상태를 의미한다.
 - blocked(=wait)
   - running상태에서 I/O작업이 발생하면 wait(=blocked)상태에 빠지게 된다.
   - **I/O가 끝나면 다시 ready상태로 들어가게 된다.** **(바로 running상태로 가는 것이 아님!)**
