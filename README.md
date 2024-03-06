@@ -1,4 +1,4 @@
-## [진행방식 및 컨벤션 규칙]()
+## [진행방식 및 컨벤션 규칙](https://github.com/2024-pass-backend/cs-plant/blob/main/Rule.md)
 
 ---
 
