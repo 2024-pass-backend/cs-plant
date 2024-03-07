@@ -32,7 +32,7 @@
 
 |        아이템         |                                                                       발표자료                                                                        |
 |:------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------:|
-|        키 종류        |              [박수현](https://github.com/2024-pass-backend/cs-plant/blob/main/db/Q1/%EB%B0%95%EC%88%98%ED%98%84.md) / [전정표]() / [곽동현]()              |
+|        키 종류        |              [박수현](https://github.com/2024-pass-backend/cs-plant/blob/main/db/Q1/%EB%B0%95%EC%88%98%ED%98%84.md) / [전정표](https://github.com/2024-pass-backend/cs-plant/blob/main/db/Q1/%EC%A0%84%EC%A0%95%ED%91%9C.md) / [곽동현]()              |
 |    RDB & NoSQL     |              [박수현](https://github.com/2024-pass-backend/cs-plant/blob/main/db/Q2/%EB%B0%95%EC%88%98%ED%98%84.md) / [전정표]() / [곽동현]()              |
 | Transaction & ACID |              [박수현](https://github.com/2024-pass-backend/cs-plant/blob/main/db/Q3/%EB%B0%95%EC%88%98%ED%98%84.md) / [전정표]() / [곽동현]()              |
 |  Isolation Level   |                                                            [박수현]() / [전정표]() / [곽동현]()                                                            |
